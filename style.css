@@ -833,3 +833,37 @@ img {
         gap: 15px;
     }
 }
+@media (max-width: 600px) {
+
+    .menu-showcase {
+        gap: 18px;
+    }
+
+    .showcase-image {
+        height: 260px;
+    }
+
+    .order-card {
+        padding: 28px 22px;
+    }
+
+    .order-card h3 {
+        font-size: 32px;
+        line-height: 1.05;
+        margin-bottom: 18px;
+    }
+
+    .order-card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .showcase-caption {
+        padding: 18px;
+    }
+
+    .showcase-caption strong {
+        font-size: 20px;
+    }
+
+}
