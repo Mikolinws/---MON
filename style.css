@@ -704,166 +704,50 @@ img {
     }
 }
 
-
-/* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 600px) {
-
-    .container,
-    .hero-content,
-    .hero-bottom {
-        width: calc(100% - 32px);
-    }
-
-    .header {
-        padding: 20px 0;
-    }
-
-    .logo {
-        font-size: 22px;
-    }
-
-    .header-button {
-        padding: 9px 13px;
-        font-size: 10px;
-    }
-
-
-    /* HERO */
-
-    .hero {
-        min-height: 750px;
-    }
-
-    .hero-content {
-        padding-top: 50px;
-    }
-
-    .hero h1 {
-        font-size: 54px;
-        letter-spacing: -2px;
-    }
-
-    .hero-description {
-        font-size: 14px;
-    }
-
-    .hero-actions {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .hero-bottom {
-        font-size: 7px;
-    }
-
-
-    /* SECTIONS */
-
-    .intro,
-    .menu,
-    .gallery,
-    .contacts {
-        padding: 90px 0;
-    }
-
-    .intro h2,
-    .section-heading h2,
-    .gallery h2 {
-        font-size: 48px;
-    }
-
-
-    /* MENU */
-
-    .menu-showcase {
-        grid-template-columns: 1fr;
-        gap: 25px;
-    }
-
-    .showcase-image {
-        height: 390px;
-    }
-
-    .order-card {
-        grid-column: auto;
-        min-height: auto;
-        padding: 40px 28px;
-    }
-
-    .order-card h3 {
-        font-size: 34px;
-    }
-
-
-    /* ABOUT */
-
-    .about {
-        padding: 90px 0;
-    }
-
-    .about-image {
-        height: 400px;
-    }
-
-    .about-content h2,
-    .contacts h2 {
-        font-size: 50px;
-    }
-
-
-    /* GALLERY */
-
-    .gallery-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: 300px 300px;
-    }
-
-    .gallery-grid img:first-child {
-        grid-row: auto;
-    }
-
-
-    /* FOOTER */
-
-    .footer .container {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-}
 @media (max-width: 600px) {
 
     .menu-showcase {
-        gap: 18px;
+        gap: 14px;
     }
 
     .showcase-image {
-        height: 260px;
-    }
-
-    .order-card {
-        padding: 28px 22px;
-    }
-
-    .order-card h3 {
-        font-size: 32px;
-        line-height: 1.05;
-        margin-bottom: 18px;
-    }
-
-    .order-card p {
-        font-size: 14px;
-        line-height: 1.6;
+        height: 190px;
     }
 
     .showcase-caption {
-        padding: 18px;
+        padding: 14px;
+    }
+
+    .showcase-caption span {
+        font-size: 10px;
     }
 
     .showcase-caption strong {
-        font-size: 20px;
+        font-size: 17px;
+    }
+
+    .order-card {
+        padding: 20px 18px;
+    }
+
+    .order-label {
+        font-size: 10px;
+    }
+
+    .order-card h3 {
+        font-size: 25px;
+        line-height: 1;
+        margin: 10px 0 14px;
+    }
+
+    .order-card p {
+        font-size: 13px;
+        line-height: 1.45;
+        margin-bottom: 10px;
+    }
+
+    .order-card a {
+        font-size: 13px;
     }
 
 }
